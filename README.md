@@ -16,7 +16,7 @@ With E-Insurance, we aim to bridge the gap between healthcare accessibility and 
 ## 🎥 Project Demo
 Check out this quick demo of **HealthCare Edge** in action:
 
-[![Watch the demo](https://www.youtube.com/watch?v=KEUB93QNNfs)](https://www.youtube.com/watch?v=KEUB93QNNfs)
+[![Watch the demo](https://img.youtube.com/vi/KEUB93QNNfs/0.jpg)](https://www.youtube.com/watch?v=KEUB93QNNfs)
 
 
 
