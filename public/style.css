@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Josefin+Sans:ital,wght@1,300&family=Kalam:wght@700&family=Lobster&family=Open+Sans:ital@1&family=Poppins:ital,wght@0,100;0,200;0,500;1,500;1,600;1,700;1,900&family=Recursive:wght@900;1000&family=Roboto+Mono&family=Roboto+Slab&family=Shrikhand&family=Updock&display=swap');
+*{
+  font-family: 'Roboto Slab', serif;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fcfff8;
+  
+}
+.portfolio{
+  background-color: #0b6a60;
+    width: 100vw;
+    font-size: 38px;
+    /* margin-left: 9px; */
+    display: flex;
+    justify-content: left;
+    
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+  height: 77px;
+  /* border: 2px solid red; */
+}
+._1{
+  color: #fddfdf;
+  font-family: 'Roboto Slab', serif;
+
+  font-size: 37px;
+  margin-left: 25px;
+    
+}
+._2{
+  color: #cdd8bb;
+  font-family: 'Roboto Slab', serif;
+  font-size: 37px;
+  margin-left: 10px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid rgb(189, 41, 41); */
+  margin-top: 20px;
+  height: 42px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 60vw;
+  height: 70px;
+  margin-top: 10px;
+  margin: left 80px;
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.36), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 10px;
+}
+.nav a{
+  /* font-family: 'Lobster', cursive; */
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+
+  color: rgb(6, 6, 63);
+}
+.nav a:hover{
+  
+
+  color: #a3bc9e;
+}
+#btn{
+    height: 37px;
+    font-size: 20px;
+    width: 169px;
+    color: white;
+    background-color: #4b8571;
+    margin-right: 25px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.Question{
+  height: 37px;
+  font-size: 20px;
+  width: 169px;
+  color: white;
+    background: color #4b8574;;
+    border-radius: 9px;
+}
+.containerimg{
+  background-image:url("image/hero_content_image.jpg");
+  background-size: cover;
+background-position: center;
+  /* border: 2px solid red; */
+   display: flex;
+   /* flex-direction: column; */
+   justify-content: left;
+   align-items: center;
+   margin-top: 30px;
+   height: 75vh;
+   width: 100vw;
+   color: #2f4858;
+}
+.boximg{
+  /* border: 2px solid red; */
+    color: #2f4858;
+    border-radius: 20px;
+    height: 37vh;
+    width: 25vw;
+    border: 4px solid #2f4858;
+    margin-left: 122px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 10px ;
+    margin-top: 46px;
+}
+.boximg h1{
+  font-size: 50px;
+  /* color: #4b8574; */
+  color:#2f4858;
+}
+.boximg{
+  font-size: 20px;
+}
+.maincontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px ;
+ 
+}
+.container2{
+  height: 57vh;
+  width:90vw ;
+  display: flex;
+  /* I want to add background image named green background  */
+  background-color: #cdd8bb;
+  /* background-image: url("image/green_background.png") ; */
+  /* background-image: url("/image/green_background.png); */
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 20px;
+}
+.button1st{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid black; */
+  height: 15vh;
+  width: 100vw;
+}
+.buttonchild  button{
+  background-color: #2f4858;
+  color: white;
+  border: 2px solid #4b8574 ;
+  height: 90px;
+    width: 220px;
+    border-radius: 33px;
+  
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.button2nd button{
+  background-color:rgb(48, 43, 43);
+  color: white;
+  /* border: 2px solid white ; */
+  height: 60px;
+    width: 250px;
+    border-radius: 30px;
+  
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.buttonchild button a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+.button2nd button a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+.footer{
+  height: 10vh;
+  color: white;
+  width: 100vw;
+  background-color: rgb(38, 36, 36);
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px ;
+}
