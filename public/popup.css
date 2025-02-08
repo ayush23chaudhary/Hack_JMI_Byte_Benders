@@ -1,0 +1,33 @@
+.popup-banner {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80vh;
+    width: 80%;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#myviksitbharat{
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+
+}
+
+.popup-content {
+    text-align: center;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
